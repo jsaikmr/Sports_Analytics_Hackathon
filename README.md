@@ -1,5 +1,4 @@
 # Sports Analytics Hackathon
-Predict the winner of the cricket match series
 
 Objective
 --------------
@@ -18,18 +17,17 @@ Here, we need to predict the outcome of the series.
 
 Here, we need to predict the name of the player who will score the maximum runs in the ODI series. 
 
-4. Highest wicket-taker
-
-Here, we need to predict the name of the player who will take the maximum wickets in the series.
-
-5. Maximum sixes 
+4. Maximum sixes 
 
 Here, we need to predict the name of the player who will hit the maximum number of sixes in the series..
 
-6. Maximum fours 
+5. Maximum fours 
 
 Here, we need to predict the name of the player who will hit the maximum number of fours in the series.
 
+6. Highest wicket-taker
+
+Here, we need to predict the name of the player who will take the maximum wickets in the series.
 
 Data Collection
 --------------------
@@ -67,7 +65,7 @@ The solution code is divided into the following sections:
 
 Solution code can be accessed [here](Series_Winner_Prediction.ipynb)
 
-2. Series output
+### 2. Series output
 
 - Using the above same dataset, we have built a model with XGBoost Classifier and predicted the Series output proportion from both India and Australia perpective.
 
@@ -77,7 +75,7 @@ Solution code can be accessed [here](Series_Winner_Prediction.ipynb)
 
 Solution code can be accessed [here](Series_Winner_Prediction.ipynb)
 
-3. Highest run scorer 
+### 3. Highest run scorer 
 
 - We have obtained the dataset containing batting records for players in both the teams India and Australia for the past 5 years. You can access the data [here](batting_data_processed.csv)
 - Also obtained the current ODI Batting ranking of all the teams which can be accessed [here](batting_rating.csv)
@@ -94,7 +92,7 @@ Solution code can be accessed [here](Series_Winner_Prediction.ipynb)
 
 Solution code can be accessed [here](Batting_Records_Prediction.ipynb)
 
-4. Maximum sixes 
+### 4. Maximum sixes 
 
 - Using the above same dataset, we have built a model with XGBoost Regression and predicted the player name who will be hitting maximum sixes in the series.
 
@@ -103,7 +101,7 @@ Solution code can be accessed [here](Batting_Records_Prediction.ipynb)
 
 Solution code can be accessed [here](Batting_Records_Prediction.ipynb)
 
-5. Maximum fours 
+### 5. Maximum fours 
 
 - Using the above same dataset, we have built a model with XGBoost Regression and predicted the player name who will be hitting maximum fours in the series.
 
@@ -112,7 +110,7 @@ Solution code can be accessed [here](Batting_Records_Prediction.ipynb)
 
 Solution code can be accessed [here](Batting_Records_Prediction.ipynb)
 
-6. Highest wicket-taker
+### 6. Highest wicket-taker
 
 - We have obtained the dataset containing bowling records for players in both the teams India and Australia for the past 5 years. You can access the data [here](bowling_data_processed.csv)
 - Also obtained the current ODI Bowling ranking of all the teams which can be accessed [here](bowling_rating.csv)
